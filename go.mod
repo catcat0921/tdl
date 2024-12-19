@@ -13,10 +13,11 @@ require (
 	github.com/beevik/ntp v1.4.3
 	github.com/expr-lang/expr v1.16.9
 	github.com/fatih/color v1.18.0
-	github.com/gabriel-vasile/mimetype v1.4.6
+	github.com/flytam/filenamify v1.2.0
+	github.com/gabriel-vasile/mimetype v1.4.7
 	github.com/go-faster/errors v0.7.1
 	github.com/go-faster/jx v1.1.0
-	github.com/go-playground/validator/v10 v10.22.1
+	github.com/go-playground/validator/v10 v10.23.0
 	github.com/google/go-github/v62 v62.0.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1
@@ -24,8 +25,8 @@ require (
 	github.com/gotd/td v0.110.1
 	github.com/iancoleman/strcase v0.3.0
 	github.com/ivanpirog/coloredcobra v1.0.1
-	github.com/iyear/tdl/core v0.17.6
-	github.com/iyear/tdl/extension v0.0.0-00010101000000-000000000000
+	github.com/iyear/tdl/core v0.18.3
+	github.com/iyear/tdl/extension v0.18.3
 	github.com/jedib0t/go-pretty/v6 v6.5.0
 	github.com/klauspost/compress v1.17.11
 	github.com/kopoli/go-terminal-size v0.0.0-20170219200355-5c97524c8b54
@@ -35,15 +36,17 @@ require (
 	github.com/onsi/gomega v1.34.1
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
+	github.com/spf13/cast v1.7.1
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.19.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/tidwall/gjson v1.18.0
 	go.etcd.io/bbolt v1.3.10
+	go.uber.org/atomic v1.11.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/net v0.31.0
+	golang.org/x/net v0.33.0
 	golang.org/x/time v0.7.0
 )
 
@@ -84,7 +87,6 @@ require (
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
-	github.com/spf13/cast v1.6.0 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
@@ -94,13 +96,12 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.opentelemetry.io/otel v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
-	golang.org/x/crypto v0.29.0 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/sync v0.9.0 // indirect
-	golang.org/x/sys v0.27.0 // indirect
-	golang.org/x/term v0.26.0 // indirect
-	golang.org/x/text v0.20.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/term v0.27.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
